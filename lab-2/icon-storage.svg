@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Storage icon</title>
+  <desc id="desc">A bucket-style storage symbol inside a ring.</desc>
+  <rect width="120" height="120" rx="30" fill="#0C1B31"/>
+  <circle cx="60" cy="60" r="34" stroke="#67D8FF" stroke-width="6" opacity="0.5"/>
+  <path d="M36 50H84L78 90H42L36 50Z" fill="#7BFFCE"/>
+  <path d="M42 44C42 39.5817 45.5817 36 50 36H70C74.4183 36 78 39.5817 78 44V50H42V44Z" fill="#67D8FF"/>
+  <path d="M48 58H72" stroke="#07111F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M46 72H74" stroke="#07111F" stroke-width="5" stroke-linecap="round"/>
+</svg>

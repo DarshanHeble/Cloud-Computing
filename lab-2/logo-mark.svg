@@ -1,0 +1,16 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NimbusWorks logo</title>
+  <desc id="desc">A cloud logo with a layered arc and upward signal lines.</desc>
+  <rect width="96" height="96" rx="28" fill="#09111F"/>
+  <path d="M28 58.5C28 49.3873 35.3873 42 44.5 42C48.3431 42 51.858 43.3131 54.6483 45.5046C57.6372 40.2093 63.3084 36.5 69.8333 36.5C79.0056 36.5 86.5 43.9944 86.5 53.1667C86.5 62.3389 79.0056 69.8333 69.8333 69.8333H42.5C34.0444 69.8333 27.5 63.2889 27.5 54.8333C27.5 56.066 27.6667 57.3229 28 58.5Z" fill="url(#paint0_linear_1_1)"/>
+  <path d="M31 58.5C31 51.5964 36.5964 46 43.5 46C46.4536 46 49.1593 47.0223 51.2891 48.7202C54.0212 44.6973 58.6515 42 63.9167 42C72.351 42 79.1667 48.8156 79.1667 57.25C79.1667 65.6844 72.351 72.5 63.9167 72.5H40.6667C34.6115 72.5 29.5 67.3885 29.5 61.3333C29.5 60.3672 29.639 59.4137 31 58.5Z" fill="#67D8FF" fill-opacity="0.2"/>
+  <path d="M23 28H37" stroke="#7BFFCE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M18 38H44" stroke="#67D8FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M27 18V26" stroke="#7BFFCE" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="paint0_linear_1_1" x1="28" y1="36.5" x2="84" y2="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67D8FF"/>
+      <stop offset="1" stop-color="#7BFFCE"/>
+    </linearGradient>
+  </defs>
+</svg>

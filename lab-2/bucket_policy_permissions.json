@@ -1,0 +1,34 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicAccessStatement",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": [
+                "arn:aws:s3:::my-lab2-aws-bucket/logo-mark.svg",
+                "arn:aws:s3:::my-lab2-aws-bucket/styles.css"
+            ]
+        },
+        {
+            "Sid": "PrivateAccessStatement",
+            "Effect": "Deny",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::my-lab2-aws-bucket/hero-cloud.svg"
+        },
+        {
+            "Sid": "IPRestrictedStatement",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::my-lab2-aws-bucket/index.html",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "27.61.44.199/32"
+                }
+            }
+        }
+    ]
+}

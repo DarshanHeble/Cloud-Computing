@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Access control icon</title>
+  <desc id="desc">A lock with a shield shape for permissions and security.</desc>
+  <rect width="120" height="120" rx="30" fill="#0C1B31"/>
+  <path d="M60 28L86 38V58C86 77.3299 74.7804 90.4932 60 98C45.2196 90.4932 34 77.3299 34 58V38L60 28Z" fill="#67D8FF" fill-opacity="0.22" stroke="#67D8FF" stroke-width="4"/>
+  <rect x="46" y="54" width="28" height="22" rx="8" fill="#7BFFCE"/>
+  <path d="M52 54V47C52 42.5817 55.5817 39 60 39C64.4183 39 68 42.5817 68 47V54" stroke="#D8E9FF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="60" cy="65" r="4" fill="#07111F"/>
+  <path d="M60 69V76" stroke="#07111F" stroke-width="4" stroke-linecap="round"/>
+</svg>

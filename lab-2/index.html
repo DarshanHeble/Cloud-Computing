@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NimbusWorks cloud services landing page hosted on Amazon S3 Static Website Hosting." />
+  <title>NimbusWorks | Cloud Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="NimbusWorks home">
+        <img src="logo-mark.svg" alt="NimbusWorks logo" class="brand-mark" />
+        <span>
+          <strong>NimbusWorks</strong>
+          <small>Cloud services for modern teams</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Amazon S3 Static Website Hosting demo</p>
+          <h1>Build, launch, and share cloud-powered experiences without a web server.</h1>
+          <p class="lead">
+            This site is a simple static website made for Lab 2. It can be uploaded to an S3 bucket,
+            enabled with static website hosting, and accessed through the S3 website endpoint.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#services">Explore services</a>
+            <a class="button secondary" href="404.html">View error page</a>
+          </div>
+          <dl class="stats" aria-label="Website highlights">
+            <div>
+              <dt>Uptime</dt>
+              <dd>Always on</dd>
+            </div>
+            <div>
+              <dt>Delivery</dt>
+              <dd>Fast CDN-ready assets</dd>
+            </div>
+            <div>
+              <dt>Security</dt>
+              <dd>Access-level demo included</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual">
+          <img src="hero-cloud.svg" alt="Illustration of cloud infrastructure" />
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>What this demo website presents</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card reveal">
+            <img src="icon-hosting.svg" alt="Hosting icon" />
+            <h3>Static Hosting</h3>
+            <p>Host HTML, CSS, JavaScript, and images from S3 with no server management.</p>
+          </article>
+          <article class="card reveal">
+            <img src="icon-storage.svg" alt="Storage icon" />
+            <h3>Object Storage</h3>
+            <p>Store website assets as objects in a bucket and serve them through a website endpoint.</p>
+          </article>
+          <article class="card reveal">
+            <img src="icon-access.svg" alt="Access control icon" />
+            <h3>Access Control</h3>
+            <p>Demonstrate private vs public access using bucket policies or ACL settings, as required in class.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split" id="why">
+        <div>
+          <p class="eyebrow">Why this works for Lab 2</p>
+          <h2>Static sites are the simplest way to show cloud hosting basics.</h2>
+          <p>
+            A static website is ideal for S3 because the browser downloads files directly from storage.
+            That makes it easy to explain upload, endpoint configuration, permissions, and error handling.
+          </p>
+          <ul class="checklist">
+            <li>Index page for the main site entry point</li>
+            <li>Custom 404 page for invalid paths</li>
+            <li>Three image assets for a realistic website structure</li>
+            <li>JavaScript to show a live timestamp and simple interaction</li>
+          </ul>
+        </div>
+        <aside class="status-panel" id="contact">
+          <p class="eyebrow">Live status</p>
+          <h3>Website ready for upload</h3>
+          <p>Open the file locally, then deploy the same set of files to your S3 bucket.</p>
+          <div class="status-row">
+            <span>Last updated</span>
+            <strong id="last-updated">Loading...</strong>
+          </div>
+          <button class="button primary full-width" id="toggle-theme" type="button">Toggle highlight mode</button>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Lab 2 static website demo for Amazon S3 Website Hosting.</p>
+      <p>Use this same folder as the content you upload to your bucket.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

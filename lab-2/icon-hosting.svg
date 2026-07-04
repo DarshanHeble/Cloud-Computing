@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hosting icon</title>
+  <desc id="desc">A server stack inside a cloud frame.</desc>
+  <rect width="120" height="120" rx="30" fill="#0C1B31"/>
+  <rect x="26" y="30" width="68" height="16" rx="8" fill="#67D8FF"/>
+  <rect x="26" y="50" width="68" height="16" rx="8" fill="#7BFFCE"/>
+  <rect x="26" y="70" width="68" height="16" rx="8" fill="#D8E9FF" fill-opacity="0.9"/>
+  <circle cx="40" cy="38" r="3" fill="#07111F"/>
+  <circle cx="40" cy="58" r="3" fill="#07111F"/>
+  <circle cx="40" cy="78" r="3" fill="#07111F"/>
+  <path d="M30 98C30 86.9543 38.9543 78 50 78H70C81.0457 78 90 86.9543 90 98" stroke="#67D8FF" stroke-width="6" stroke-linecap="round"/>
+</svg>

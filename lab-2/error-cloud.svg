@@ -1,0 +1,12 @@
+<svg width="720" height="560" viewBox="0 0 720 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">404 cloud illustration</title>
+  <desc id="desc">Cloud with a missing file symbol for the error page.</desc>
+  <rect width="720" height="560" rx="40" fill="#07111F"/>
+  <circle cx="180" cy="120" r="82" fill="#67D8FF" fill-opacity="0.12"/>
+  <circle cx="566" cy="120" r="64" fill="#7BFFCE" fill-opacity="0.12"/>
+  <path d="M172 308C172 268.817 203.817 237 243 237C259.72 237 275.092 242.717 287.284 252.233C300.259 228.357 325.72 212 354.5 212C394.224 212 426.5 244.276 426.5 284C426.5 284.624 426.493 285.246 426.479 285.865C459.263 289.794 485 317.643 485 351.5C485 387.375 455.875 416.5 420 416.5H240C205.311 416.5 177 388.189 177 353.5C177 337.199 183.246 322.376 193.467 310.99C186.969 310.304 180.5 309.233 172 308Z" fill="#102443" stroke="#27426F" stroke-width="4"/>
+  <rect x="290" y="266" width="120" height="150" rx="18" fill="#0C1B31" stroke="#67D8FF" stroke-width="4"/>
+  <path d="M320 300L380 360" stroke="#7BFFCE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M380 300L320 360" stroke="#7BFFCE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M210 460H510" stroke="#D8E9FF" stroke-opacity="0.25" stroke-width="10" stroke-linecap="round"/>
+</svg>
